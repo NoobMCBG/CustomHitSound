@@ -43,7 +43,6 @@ class CustomHitSound extends PluginBase implements Listener {
 		$attacker = $event->getDamager();
 		$entity = $event->getEntity();
 		if($attacker instanceof Player){
-			$attacker = $event->getPlayer();
 		    $packet = new PlaySoundPacket();
 		    $packet->soundName = "CustomHitSound";
 		    $packet->x = $attacker->getPosition()->getX();
@@ -54,7 +53,7 @@ class CustomHitSound extends PluginBase implements Listener {
 		    $attacker->getNetworkSession()->sendDataPacket($packet);
 		}
 		if($entity instanceof Player){
-			$packet = new PlaySoundPacket();
+		    $packet = new PlaySoundPacket();
 		    $packet->soundName = "CustomHitSound";
 		    $packet->x = $entity->getPosition()->getX();
 		    $packet->y = $entity->getPosition()->getY();
