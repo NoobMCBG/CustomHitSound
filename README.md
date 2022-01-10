@@ -11,11 +11,6 @@
 - When hitting the player will make a sound
   
 <br>
-  
-## 📃 License
-- [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html).
-
-<br>
  
 ## ↓ Install
 - Step 1: Click the "Direct Download" button to download the plugin
