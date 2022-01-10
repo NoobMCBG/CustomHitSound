@@ -1,0 +1,6 @@
+name: CustomHitSound
+main: NoobMCBG\CustomHitSound\CustomHitSound
+api: 4.0.0
+version: 0.0.1
+author: NoobMCBG, NhanAZ
+description: When hitting the player will make a sound
